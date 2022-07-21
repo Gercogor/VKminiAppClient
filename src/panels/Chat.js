@@ -34,11 +34,6 @@ const Chat = ({id, fetchedUser, online, socketId, sendMessage, messenger}) => {
         clear();
     }
 
-
-    const checkServer = () => {
-        console.log(online)
-    }
-
     return (
         <Panel id={id}>
             <PanelHeader>Chat room (online: {online} people)</PanelHeader>
